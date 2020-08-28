@@ -2,7 +2,7 @@ Week_Day,L1,L2,L3,L4,L5,L6
 Sunday,,,,,,
 Monday,,DN,,DN,DN,
 Tuesday,SB,SB,SB,SN,SN,
-Wednesday,SB,SB,SB,SB,SB,
+Wednesday,SB,SB,SB,DN,DN,
 Thursday,,SB,SB,SN,SN,SN
-Friday,DN,DN,DN,DN,DN,
+Friday,DN,DN,DN,SB,SB,
 Saturday,DN,DN,,SB,SB,
