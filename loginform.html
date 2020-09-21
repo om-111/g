@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script>
-            function login(){
+            function log(){
                 var u = document.login.uname.value;
                 var p = document.login.pwd1.value;
                 var r = document.login.res.value;
@@ -19,8 +19,6 @@
                     document.login.res.value="R";
 //                    document.write("Successful Failure");
                 }
-                
-                
 //                if(u==="om"){
 //                    if(p==="123"){
 //                        document.write("Successful Login");
@@ -33,15 +31,14 @@
 //                    document.write("incorrect name");
 //                }
             }
-            
         </script>
     </head>
     <body>
         <form name="login">
             <input type="text" name="uname" placeholder="om" required>  
             <input type="password" name="pwd1" placeholder="password" required>  
-            <input type="submit" value="Login" onclick="login()">
-            <input type="text" name="res"> 
+            <input type="button" value="Login" onClick="log();">
+            <input type="text" name="res" value=""> 
         </form>
     </body>
 </html>
